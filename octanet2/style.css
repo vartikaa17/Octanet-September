@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 9, 9);
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgb(142, 76, 213);
+    border-top: 1px solid rgb(142, 76, 213);
+    background-color: rgb(142, 76, 213);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav ul li a:hover {
+    font-size: 1.1em;
+    color: rgb(175, 175, 230);
+}
+
+.left {
+    font-size: 1.7em;
+
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.first {
+    justify-content: space-around;
+    display: flex;
+    margin: 100px 0;
+    align-items: center;
+
+}
+
+.first>div {
+    width: 30%;
+}
+
+.lsec {
+    font-size: 2.5em;
+
+}
+
+.lsec .btn {
+    margin-top: 50px;
+    padding: 12px;
+    background: rgb(147, 88, 206);
+    color: white;
+    border: 2px solid rgb(156, 141, 141);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.lsec .btn:hover {
+    padding: 12px;
+    background: rgb(185, 134, 237);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+.rsec img {
+    width: 75%;
+    margin: 5px 70px;
+    /* border-radius: 200px; */
+    height: 340px;
+    /* filter: drop-shadow(0px 0px 20px silver); */
+}
+
+
+.purple {
+    color: rgb(142, 76, 213);
+}
+
+
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+    height: 97 vh;
+}
+
+main hr {
+    border: 0;
+    background: rgb(134, 87, 206);
+    height: 1.2px;
+    margin: 90px 84px;
+}
+
+footer {
+
+    background-color: rgb(174, 144, 209);
+    margin-top: 150px;
+
+    
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+
+
+.footer_center {
+    text-align: center;
+    color: black;
+    padding: 12px 0;
+}
+
